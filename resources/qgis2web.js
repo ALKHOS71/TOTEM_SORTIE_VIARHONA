@@ -9,7 +9,7 @@ var map = new ol.Map({
 });
 
 //initial view - epsg:3857 coordinates if not "Match project CRS"
-map.getView().fit([523951.014528, 5674824.083164, 758088.207269, 5838638.792198], map.getSize());
+map.getView().fit([516722.587994, 5688743.971156, 751111.387872, 5852634.982316], map.getSize());
 
 //full zooms only
 map.getView().setProperties({constrainResolution: true});
@@ -524,7 +524,7 @@ map.addControl(Title)
 //layer search
 
 var searchLayer = new SearchLayer({
-    layer: lyr_TOTEMSDESORTIE_4,
+    layer: lyr_TOTEMSDESORTIE_6,
     colName: 'Identifian',
     zoom: 10,
     collapsed: true,
